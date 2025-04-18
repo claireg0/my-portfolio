@@ -1,0 +1,38 @@
+.skills-header {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+  }
+  
+  .skills-group {
+    margin-bottom: 2.5rem;
+  }
+  
+  .group-title {
+    font-size: 1.8rem;
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .tag {
+    background: rgba(25, 35, 65, 0.7);
+    padding: 0.6rem 1rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    color: var(--accent);
+    transition: background 0.3s, transform 0.3s;
+    cursor: default;
+  }
+  
+  .tag:hover {
+    background: rgba(25, 35, 65, 0.9);
+    transform: translateY(-2px);
+  }
+  

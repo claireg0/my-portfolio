@@ -1,0 +1,23 @@
+  .resume h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 6px var(--accent);
+  }
+  .resume ul {
+    list-style: none;
+    padding: 0;
+  }
+  .resume li {
+    margin: 0.7rem 0;
+    padding-left: 1rem;
+    position: relative;
+    font-size: 1.1rem;
+  }
+  .resume li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    text-shadow: 0 0 4px var(--accent);
+  }
+  

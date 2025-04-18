@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(16, 16, 32, 0.545);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    z-index: 100;
+    padding: 20px; 
+    padding-inline: 20px;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  .navbar a {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    color: var(--text);
+  }
+  .navbar a:hover { color: var(--accent); }
+  
+  

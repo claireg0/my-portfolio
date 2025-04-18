@@ -1,0 +1,15 @@
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 6px var(--accent);
+  }
+  
+  .contact p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .contact a {
+    color: var(--accent);
+  }
+  

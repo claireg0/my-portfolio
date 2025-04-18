@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Skills from './components/Skills';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>  
+      <Navbar />
+      <div className="social-icons">
+        <a href="mailto:claire.jl.guo@gmail.com" aria-label="Email">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
         </a>
-      </header>
-    </div>
+        <a href="https://www.linkedin.com/in/claire-jl-guo/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+        </a>
+        <a href="https://github.com/claireg0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <i class="fa fa-github-square" aria-hidden="true"></i>
+        </a>
+      </div>
+      <Hero />
+      <Skills />
+      <Resume />
+      <Contact />
+    </>
   );
 }
 
